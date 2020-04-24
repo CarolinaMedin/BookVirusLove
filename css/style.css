@@ -7,8 +7,26 @@ body{
     background: #000;
 }
 
-
-
 #main{
     padding-top: 30px;
+}
+
+.btnPevNext{
+    text-align: center;
+}
+
+.portada{
+    background-color: yellow;
+    height: 600px;
+    text-align: center;
+}
+
+.page{
+    text-align: justify;
+    padding: 40px;
+    height: 500px;
+}
+
+h2{
+    text-align: center;
 }
