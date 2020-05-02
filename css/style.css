@@ -19,14 +19,33 @@ body{
     background-color: yellow;
     height: 600px;
     text-align: center;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(principito-boa-elefante.jpg) 30 stretch;
+    
 }
 
 .page{
     text-align: justify;
     padding: 40px;
     height: 500px;
+    
 }
 
 h2{
     text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: lighter 20px;
+    font-variant: small-caps;
+}
+
+#pageZ{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('principito-zorro.gif'); 
+}
+
+#pageZ img {
+  opacity: 0.2;
 }

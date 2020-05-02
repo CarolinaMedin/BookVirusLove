@@ -5,6 +5,8 @@ $(document).ready(function(){
         closed:1,
         covers:1,
         pagePadding:0,
+        auto:1,
+        delay:2000,
     });
 
     $('#previous').click(function(){
